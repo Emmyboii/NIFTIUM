@@ -12,14 +12,15 @@ import {
     FaShieldAlt,
     FaHandshake,
 } from "react-icons/fa";
-import heroImg from "../Images/hero.png";
+import heroImg from "../Images/electrician.jpeg";
 import electricians from "../Images/electricians working.jpeg";
-import electricians2 from "../Images/Smiling Electrician.jpeg";
+import electricians2 from "../Images/electricians2.jpeg";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import Testimonials from "../Components/Testimonials";
 import Map from "../Components/Map";
 import FAQ from "../Components/FAQ";
+import Certification from "../Components/Certification";
 
 const Home = () => {
     const [filter, setFilter] = useState("All");
@@ -314,6 +315,7 @@ const Home = () => {
                     </div>
                 </section>
 
+
                 <section className="py-20 px-6 md:px-24 bg-gradient-to-b from-gray-900 to-gray-800 text-white">
                     <div className="max-w-7xl mx-auto">
 
@@ -534,6 +536,7 @@ const Home = () => {
                 </section>
 
                 <Testimonials />
+                <Certification />
                 <FAQ />
                 <Map />
             </main>

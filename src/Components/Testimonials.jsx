@@ -1,5 +1,10 @@
 import { FaQuoteLeft, FaStar } from 'react-icons/fa'
 import { motion } from "framer-motion";
+import avatar1 from "../Images/Testimonials/avatar-1.jpg";
+import avatar2 from "../Images/Testimonials/avatar-2.jpg";
+import avatar3 from "../Images/Testimonials/avatar-3.jpg";
+import avatar4 from "../Images/Testimonials/avatar-4.jpg";
+import avatar5 from "../Images/Testimonials/avatar-5.jpg";
 
 const cardVariants = {
     hidden: { opacity: 0, y: 40, scale: 0.95 },
@@ -19,44 +24,44 @@ const Testimonials = () => {
 
     const testimonials = [
         {
-            name: "Jessica Reynolds",
+            name: "Danica Whitfield",
             role: "Homeowner — Cincinnati, OH",
             comment:
-                "Niftium completely transformed our lighting setup. Every fixture was installed with care and precision — the attention to detail blew me away!",
+                "Niftium completely transformed my lighting setup. Every fixture was installed with care and precision — the attention to detail blew me away!",
             rating: 4,
-            avatar: "https://randomuser.me/api/portraits/women/44.jpg",
+            avatar: avatar1,
         },
         {
-            name: "Michael Davenport",
+            name: "Marcus Ellison",
             role: "Property Manager — Louisville, KY",
             comment:
                 "They diagnosed and fixed a wiring fault in less than an hour. Professional, responsive, and extremely tidy work.",
             rating: 5,
-            avatar: "https://randomuser.me/api/portraits/men/32.jpg",
+            avatar: avatar2,
         },
         {
-            name: "Alyssa Cooper",
+            name: "Tiffany Brooks",
             role: "Homeowner — Indianapolis, IN",
             comment:
-                "The team installed our new oven circuit perfectly. Courteous and clearly experienced — I’ll definitely hire them again.",
+                "The team installed my new oven circuit perfectly. Courteous and clearly experienced — I’ll definitely hire them again.",
             rating: 5,
-            avatar: "https://randomuser.me/api/portraits/women/55.jpg",
+            avatar: avatar3,
         },
         {
-            name: "Daniel Peterson",
+            name: "Andre Coleman",
             role: "Facility Supervisor — Dayton, OH",
             comment:
                 "Their quick response saved us from a complete power outage at our workshop. Exceptional service from start to finish.",
             rating: 3,
-            avatar: "https://randomuser.me/api/portraits/men/68.jpg",
+            avatar: avatar4,
         },
         {
-            name: "Erin Wallace",
+            name: "Keisha Bryant",
             role: "Landlord — Lexington, KY",
             comment:
                 "Reliable, neat, and affordable. My tenants had power issues and Niftium resolved them same-day. Absolutely stellar experience.",
             rating: 4,
-            avatar: "https://randomuser.me/api/portraits/women/68.jpg",
+            avatar: avatar5,
         },
     ];
 
